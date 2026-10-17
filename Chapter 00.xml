@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>McThelema</title>
+        <title type="sub">The submerged iceberg below the Cornell 7 case</title>
+        <author>
+            <persName>Nicolas REIMEN<roleName>Author</roleName></persName>
+        </author>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <list type="ordered">
+          <item n="1" page_a4="1" page_ut="1">Chapter 1 — Prologue
+            <list type="bulleted">
+              <item page_a4="2" page_ut="3">1.1 Police report</item>
+              <item page_a4="4" page_ut="7">1.2 Previous cases</item>
+              <item page_a4="5" page_ut="9">1.3 The Reddit and Social Media evidence</item>
+              <item page_a4="7" page_ut="12">1.4 The Journalistic, Legal and Academic assessment</item>
+              <item page_a4="8" page_ut="14">1.5 This Book's approach</item>
+            </list>
+          </item>
+          <item n="2" page_a4="11" page_ut="17">Chapter 2 — History of Frat-House ritual sex
+            <list type="bulleted">
+              <item page_a4="11" page_ut="17">2.1 The Kavanaugh evidence</item>
+              <item page_a4="13" page_ut="20">2.2 Chris Miller</item>
+              <item page_a4="14" page_ut="22">2.3 The British DNA
+                <list type="bulleted">
+                  <item page_a4="14" page_ut="23">2.3.1 Crowley</item>
+                  <item page_a4="16" page_ut="25">2.3.2 British Upper-class practical sex magic</item>
+                  <item page_a4="17" page_ut="27">2.3.3 The Wartime connections at MI5-MI6</item>
+                  <item page_a4="18" page_ut="29">2.3.4 Wartime US fratboys acculturation</item>
+                  <item page_a4="19" page_ut="30">2.3.5 A Post Scriptum: James Bond</item>
+                </list>
+              </item>
+              <item page_a4="19" page_ut="31">2.4 The post-war era</item>
+            </list>
+          </item>
+          <item n="3" page_a4="21" page_ut="35">Chapter 3 — Metaphysics and Theurgy
+            <list type="bulleted">
+              <item page_a4="21" page_ut="35">3.1 Girardian desire</item>
+              <item page_a4="23" page_ut="38">3.2 David and Dickie.</item>
+              <item page_a4="24" page_ut="41">3.3 Virginia Woolf's "bipolar disorder".</item>
+              <item page_a4="26" page_ut="45">3.4 Apocalypse in Kenya.</item>
+              <item page_a4="28" page_ut="47">3.5 Theurgical Metaphysics.</item>
+              <item page_a4="30" page_ut="50">3.6 The Irresistible Attraction of the Frat Sex Ritual.</item>
+            </list>
+          </item>
+          <item n="4" page_a4="33" page_ut="53">Chapter 4 — The Dual Sovereignty Model
+            <list type="bulleted">
+              <item page_a4="33" page_ut="53">4.1. Hammurabi and his Roman counterpart</item>
+              <item page_a4="35" page_ut="57">4.2. The Girardian mechanics on both sides</item>
+              <item page_a4="36" page_ut="59">4.3. The Red and the Black</item>
+              <item page_a4="37" page_ut="60">4.4. Instance list</item>
+            </list>
+          </item>
+          <item n="5" page_a4="45" page_ut="73">Chapter 5 — Ancient Foundations — Kullaba - E-Anna instances I
+            <list type="bulleted">
+              <item page_a4="45" page_ut="73">5.1 [1] Late Chalcolithic Uruk
+                <list type="bulleted">
+                  <item page_a4="45" page_ut="73">5.1.1 Archaeological findings and developmental hypotheses</item>
+                  <item page_a4="46" page_ut="75">5.1.2 The Traditional Interpretation</item>
+                  <item page_a4="47" page_ut="76">5.1.3 Revised Interpretation</item>
+                  <item page_a4="47" page_ut="77">5.1.4 Ideological Legitimacy of the Ensi</item>
+                  <item page_a4="48" page_ut="79">5.1.5 Ideological Legitimacy of the Lugal</item>
+                  <item page_a4="49" page_ut="80">5.1.6 The Crystallization of the Dual Model</item>
+                </list>
+              </item>
+              <item page_a4="49" page_ut="81">5.2 [2] Sargon of Akkad
+                <list type="bulleted">
+                  <item page_a4="49" page_ut="81">5.2.1 Current Scholarship on the Akkadian Empire</item>
+                  <item page_a4="50" page_ut="82">5.2.2 Divergence: The Thermodynamics of Usurpation</item>
+                  <item page_a4="51" page_ut="83">5.2.3 Ishtar's Lover and the Charismatic Monopoly</item>
+                  <item page_a4="51" page_ut="84">5.2.4 Enheduanna: The Ideological Architect of the E-Anna</item>
+                  <item page_a4="52" page_ut="85">5.2.5 The Thermodynamic Collapse of the Pure Red State</item>
+                </list>
+              </item>
+              <item page_a4="53" page_ut="86">5.3 [3] Hammurabi of Babylon
+                <list type="bulleted">
+                  <item page_a4="53" page_ut="86">5.3.1 The Post-Akkadian Pendulum and the Amorite Warlords</item>
+                  <item page_a4="54" page_ut="88">5.3.2 The Righteous Glove: Marduk, Shamash, and the Code</item>
+                  <item page_a4="54" page_ut="89">5.3.3 The Hidden Fist: The Akitu and the E-Anna Engine</item>
+                </list>
+              </item>
+              <item page_a4="55" page_ut="90">5.4 [4] The Indo-Iranian Dynamic
+                <list type="bulleted">
+                  <item page_a4="55" page_ut="90">5.4.1 Reinterpreting the Trifunctional Hypothesis</item>
+                  <item page_a4="56" page_ut="92">5.4.2 Phase 1: The Central Asian Expansion and the BMAC Encounter</item>
+                  <item page_a4="56" page_ut="93">5.4.3 Phase 2: The BMAC Borrowing and the ✶Wárunas Reform</item>
+                  <item page_a4="57" page_ut="94">5.4.4 Phase 3: The Collapse in Central Asia and the Indus Valley</item>
+                  <item page_a4="58" page_ut="94">5.4.5 Phase 4: The Gathic Revolution in the Hindu Kush</item>
+                  <item page_a4="58" page_ut="95">5.4.6 Phase 5: The Indo-Aryan Expansion and the Vrātya</item>
+                  <item page_a4="59" page_ut="97">5.4.7 Conclusion: The Perpetual Erosion and the Eventual Hindu Synthesis</item>
+                  <item page_a4="60" page_ut="98">5.4.8 Addendum: ✶kóryos ritual group sex</item>
+                </list>
+              </item>
+              <item page_a4="61" page_ut="101">5.5 [5] The Indo-European Royal Synthesis
+                <list type="bulleted">
+                  <item page_a4="61" page_ut="101">5.5.1 The Indic Royal Synthesis: Kuru-Panchala</item>
+                  <item page_a4="62" page_ut="102">5.5.2 The Celtic Banais Ríghi</item>
+                  <item page_a4="63" page_ut="103">5.5.3 The Anatolian Synthesis: Hittite Kingship</item>
+                  <item page_a4="63" page_ut="104">5.5.4 The Early Roman Monarchy</item>
+                  <item page_a4="64" page_ut="105">5.5.5 The Republican Rupture: A Zoroastrian Echo in Rome</item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item n="6" page_a4="67" page_ut="109">Chapter 6 — Classical Antiquity — Kullaba - E-Anna instances II
+            <list type="bulleted">
+              <item page_a4="67" page_ut="109">6.1 [6] The Neo-Assyrian Empire
+                <list type="bulleted">
+                  <item page_a4="67" page_ut="109">6.1.1 The Old Assyrian Kullaba: A Merchant Republic</item>
+                  <item page_a4="68" page_ut="110">6.1.2 The Imperial Pivot: Adopting the Ishtarian Engine</item>
+                  <item page_a4="68" page_ut="111">6.1.3 The Raggamu and State-Sponsored Ecstasy</item>
+                  <item page_a4="68" page_ut="112">6.1.4 Thermodynamic Overload and Mimetic Blowback</item>
+                  <item page_a4="69" page_ut="112">6.1.5 The Medes and the Conflagration of Nineveh</item>
+                </list>
+              </item>
+              <item page_a4="70" page_ut="114">6.2 [7] The Epic of Gilgamesh
+                <list type="bulleted">
+                  <item page_a4="70" page_ut="114">6.2.1 From Sumerian Warlord to Akkadian Civic Hero</item>
+                  <item page_a4="70" page_ut="115">6.2.2 Tablet VI: The Rejection of the Hieros Gamos</item>
+                  <item page_a4="71" page_ut="116">6.2.3 The Extortion of Anu and the Unleashing of Chaos</item>
+                  <item page_a4="71" page_ut="117">6.2.4 The Triumph of Civic Order and the Walls of Uruk</item>
+                </list>
+              </item>
+              <item page_a4="72" page_ut="118">6.3 [8] Peisistratos of Athens
+                <list type="bulleted">
+                  <item page_a4="72" page_ut="118">6.3.1 The Mediterranean Indo-European Evolution: Warriors into Elders</item>
+                  <item page_a4="73" page_ut="119">6.3.2 The Tyrannos as the Resurgence of the E-Anna</item>
+                  <item page_a4="73" page_ut="120">6.3.3 Peisistratos and the Theatrical Epiphany</item>
+                  <item page_a4="74" page_ut="121">6.3.4 The Secularized Kullaba’s Misunderstanding</item>
+                  <item page_a4="75" page_ut="122">6.3.5 The Comparativism Allergy of "Classical" Scholars</item>
+                </list>
+              </item>
+              <item page_a4="76" page_ut="124">6.4 [9] Ptolemaic Egypt
+                <list type="bulleted">
+                  <item page_a4="76" page_ut="124">6.4.1 The Imperial Failure of the Polis and the Diadochi Reversion</item>
+                  <item page_a4="76" page_ut="125">6.4.2 The Ptolemaic Kullaba: Alexandria and the Mouseion</item>
+                  <item page_a4="77" page_ut="126">6.4.3 The E-Anna Reborn: Isis-Aphrodite, Incest, and Tryphe</item>
+                  <item page_a4="77" page_ut="127">6.4.4 The Discomfort of Classical Scholarship</item>
+                </list>
+              </item>
+              <item page_a4="78" page_ut="128">6.5 [10-11] The Fall of the Republic and the Augustan Synthesis
+                <list type="bulleted">
+                  <item page_a4="78" page_ut="128">6.5.1 The Atrophy of the Roman Kullaba and the Rise of the Populares</item>
+                  <item page_a4="79" page_ut="129">6.5.2 The Optimates Reaction and the Contagion of Pompey</item>
+                  <item page_a4="79" page_ut="130">6.5.3 Caesar and the Venusian Climax</item>
+                  <item page_a4="80" page_ut="131">6.5.4 The Final Civil War: Actium and the Clash of Paradigms</item>
+                  <item page_a4="80" page_ut="132">6.5.5 The Augustan Synthesis: the E-Anna in the The Black</item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item n="7" page_a4="83" page_ut="135">Chapter 7 — The Late Antique Transition — Kullaba - E-Anna instances III
+            <list type="bulleted">
+              <item page_a4="83" page_ut="136">7.1 [12] The Book of Revelation
+                <list type="bulleted">
+                  <item page_a4="83" page_ut="136">7.1.1 Assyriology, the Religionsgeschichtliche Schule, and Marxist Paradigms</item>
+                  <item page_a4="84" page_ut="137">7.1.2 The Prophetic Lineage and the Second Temple Predecessors</item>
+                  <item page_a4="84" page_ut="138">7.1.3 The Whore and the E-Anna-Free Utopia</item>
+                  <item page_a4="86" page_ut="140">7.1.4 The "Sleepwalking" Resurrection of the Utopia</item>
+                </list>
+              </item>
+              <item page_a4="87" page_ut="142">7.2 [13] Sassanid Persia
+                <list type="bulleted">
+                  <item page_a4="87" page_ut="142">7.2.1 The Return of the Repressed: From the Gathas to the Younger Avesta</item>
+                  <item page_a4="87" page_ut="143">7.2.2 The First Integrated Monotheizing Synthesis</item>
+                  <item page_a4="88" page_ut="143">7.2.3 The Sassanid Culmination: Ahura Mazda and Anahita</item>
+                  <item page_a4="89" page_ut="145">7.2.4 The Last Bastion of the Red</item>
+                </list>
+              </item>
+              <item page_a4="89" page_ut="146">7.3 [14] Islamic Kingship
+                <list type="bulleted">
+                  <item page_a4="89" page_ut="146">7.3.1 The Caliphal Model as the Sassanian Inheritance</item>
+                  <item page_a4="90" page_ut="147">7.3.2 The Minimalistic Solution and the Physical Barrier</item>
+                  <item page_a4="90" page_ut="147">7.3.3 The Etymology of "Harem"</item>
+                  <item page_a4="90" page_ut="148">7.3.4 The Tiniest of Fig-Leaves</item>
+                </list>
+              </item>
+              <item page_a4="91" page_ut="149">7.4 [15-16] Hindu Kingship
+                <list type="bulleted">
+                  <item page_a4="91" page_ut="149">7.4.1 The Post-Mauryan Restoration and the Gupta Synthesis</item>
+                  <item page_a4="91" page_ut="149">7.4.2 "The Red" State in Action: Durga and the Wodeyars of Mysore</item>
+                  <item page_a4="92" page_ut="150">7.4.3 The Esoteric Tension: Tantra and the Quest for siddhi</item>
+                  <item page_a4="92" page_ut="151">7.4.4 The Indo-European Bifurcation of the Goddess</item>
+                  <item page_a4="93" page_ut="152">7.4.5 The Kullaba-only temptation: Parashurama</item>
+                </list>
+              </item>
+              <item page_a4="94" page_ut="153">7.5 [17] Byzantium under Justinian
+                <list type="bulleted">
+                  <item page_a4="94" page_ut="153">7.5.1 The Historiographical Anomaly of the "Circus Empresses"</item>
+                  <item page_a4="94" page_ut="154">7.5.2 The Re-emergence of the E-Anna Engine</item>
+                  <item page_a4="95" page_ut="155">7.5.3 The Thermodynamic Engine of the Reconquest</item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item n="8" page_a4="97" page_ut="157">Chapter 8 — The Shaping of Western Culture — Kullaba - E-Anna instances IV
+            <list type="bulleted">
+              <item page_a4="97" page_ut="157">8.1 [18] The Medieval Compromise
+                <list type="bulleted">
+                  <item page_a4="97" page_ut="157">8.1.1 The Forgotten IE Roots of the Roman West</item>
+                  <item page_a4="97" page_ut="158">8.1.2 The Bankruptcy of the Centralized Imperial Model</item>
+                  <item page_a4="98" page_ut="159">8.1.3 The Monks of Auxerre and the Irish Transmission</item>
+                  <item page_a4="99" page_ut="161">8.1.4 Archaic Regression and the Coalitions of the Meek</item>
+                </list>
+              </item>
+              <item page_a4="100" page_ut="162">8.2 [19-20] The Troubadours
+                <list type="bulleted">
+                  <item page_a4="100" page_ut="162">8.2.1 William IX and the Outbreak of Sargonitis</item>
+                  <item page_a4="100" page_ut="163">8.2.2 The Eleanor Synthesis: Taming the E-Anna</item>
+                  <item page_a4="101" page_ut="164">8.2.3 Catharism, Rougemont, and the Birth of Stealth Religion</item>
+                  <item page_a4="102" page_ut="165">8.2.4 The "Secular Entertainment" Loophole</item>
+                  <item page_a4="103" page_ut="167">8.2.5 The "House of Garsenda"</item>
+                </list>
+              </item>
+              <item page_a4="103" page_ut="168">8.3 [21] Frederick II Hohenstaufen
+                <list type="bulleted">
+                  <item page_a4="103" page_ut="168">8.3.1 A Macro-Outbreak of Sargonitis: The Stupor Mundi</item>
+                  <item page_a4="104" page_ut="169">8.3.2 The Anti-Kullaba Weapon: Neoplatonism and the Sicilian Bureaucracy</item>
+                  <item page_a4="105" page_ut="170">8.3.3 Bolstering Rougemont: The Elitist Spirit of Gnostic Dualism and Neoplatonism</item>
+                  <item page_a4="106" page_ut="172">8.3.4 The Augustan Revival and the Preambulus Antichristi</item>
+                  <item page_a4="107" page_ut="173">8.3.5 A Retrospective Window into Uruk</item>
+                </list>
+              </item>
+              <item page_a4="107" page_ut="174">8.4 [22-23] Joan of Arc
+                <list type="bulleted">
+                  <item page_a4="107" page_ut="174">8.4.1 A Desperate Move, Not a Calculated Sargonitis</item>
+                  <item page_a4="108" page_ut="175">8.4.2 The Astonishing Robustness of the E-Anna Archetype</item>
+                  <item page_a4="108" page_ut="176">8.4.3 Reims as the New Akitu and Banais Ríghi</item>
+                  <item page_a4="109" page_ut="177">8.4.4 Cauchon and the Confused Kullaba</item>
+                  <item page_a4="109" page_ut="178">8.4.5 The Nullification Trial: E-Anna and Kullaba Reconciled</item>
+                  <item page_a4="110" page_ut="178">8.4.6 A Ridiculous Post-Scriptum: Canonization and Nationalism</item>
+                </list>
+              </item>
+              <item page_a4="110" page_ut="179">8.5 [24] Louis XIV and Versailles
+                <list type="bulleted">
+                  <item page_a4="110" page_ut="179">8.5.1 The Trauma of the Fronde and the rise of the Palace</item>
+                  <item page_a4="111" page_ut="180">8.5.2 The Maîtresse-en-Titre and the Secular Spectacle</item>
+                  <item page_a4="111" page_ut="181">8.5.3 The Mimetic Magnet of Versailles</item>
+                  <item page_a4="112" page_ut="182">8.5.4 Kullaba Tension and the Pious E-Anna</item>
+                  <item page_a4="112" page_ut="182">8.5.5 The End of the Line: The Fall of the BDMB in Europe</item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item n="9" page_a4="113" page_ut="185">Chapter 9 — Christianity and the Postmodern Downfall
+            <list type="bulleted">
+              <item page_a4="113" page_ut="185">9.1 Augustine</item>
+              <item page_a4="114" page_ut="186">9.2 Porneiomachia</item>
+              <item page_a4="114" page_ut="187">9.3 The Medieval Monastery</item>
+              <item page_a4="115" page_ut="188">9.4 John Calvin</item>
+              <item page_a4="116" page_ut="190">9.5 Max Weber</item>
+              <item page_a4="117" page_ut="191">9.6 Michel Foucault</item>
+              <item page_a4="117" page_ut="192">9.7 Foucault's "Limit-Experiences"</item>
+              <item page_a4="118" page_ut="193">9.8 Vandalizing the WoB Paradigm</item>
+              <item page_a4="119" page_ut="195">9.9 Dismantling the Feminist Critique</item>
+              <item page_a4="122" page_ut="200">9.10 The Current Religious Landscape</item>
+            </list>
+          </item>
+          <item n="10" page_a4="125" page_ut="205">Chapter 99 — Lexicon and Bibliography
+            <list type="bulleted">
+              <item page_a4="125" page_ut="205">Lexicon</item>
+              <item page_a4="210" page_ut="347">Bibliography</item>
+            </list>
+          </item>
+        </list>
+      </div>
+
+      <div type="foreword">
+        <head>Foreword</head>
+
+        <p>Bla</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,278 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chapter 4 — The Dual Sovereignty Model</title>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" n="4" xml:id="History_Frat_House">
+                
+                <p>After recapitulating, in Chapter 1, the Journalistic treatment and Legal ramifications of the Cornell 7 case, we engaged in a brief modern history sketch of the underlying phenomenon in Chapter 2 and attempted a structural analysis of its psychological foundations with the help of <name ref="GIRARD-Rene">René Girard</name>'s anthropology of Desire in Chapter 3. We are now beginning a more in-depth dive into the <term xml:lang="fr" rend="italic" ref="Longue_Dureé">longue dureé</term> historical development of the family of cultural-religious phenomena to which frat ritual sex belongs. In doing so, we will be forced to break a certain number of Academic taboos, the collective existence of which explains why such an overdue work has not been attempted yet. We have become accustomed to the steady stream of Academic scandals that have emerged in recent years: fraud, plagiarism, the recruitment of obviously unsuitable individuals, etc. Yet, we should not forget that the biggest scandal of all is the increasing refusal of Academia to <hi rend="italic">say</hi> anything at all; to risk synthesis and comparison in the service of better overall understanding. Our position outside of Academia enables us to undertake such a work without fear of institutional retribution.</p>
+
+                <div type="section" n="1">
+                  <head>4.1. <name xml:id="Hammurabi" type="ruler">Hammurabi</name> and his <name type="people" xml:id="Rome">Roman</name> counterpart</head>
+                  
+                  <p><name ref="Hammurabi">Hammurabi</name> of <name type="place" xml:id="Babylon">Babylon</name> represents a paradigmatic early example of a sovereign who systematically deployed the <q>righteous ruler</q> persona. He erected the stelae bearing his famous code of law—functioning less as a strictly operational legal code in the modern sense and more as a monumental advertisement of his commitment to cosmic justice—and he extended generous patronage to protective deities associated with righteousness and order, such as <name type="deity" xml:id="Shamash">Shamash</name> (depicted on the stele itself) and <name type="deity" xml:id="Marduk">Marduk</name> (the paternal poliad god of <name ref="Babylon">Babylon</name>). Concurrently, however, his annual participation in the <name type="event" xml:id="Akitu">Akitu</name> festival served to confirm his martial-erotic fitness to rule, a status conferred by the goddess <name xml:lang="sux" type="deity" xml:id="Inanna-Ishtar">Inanna-Ishtar</name> through the <term xml:lang="grc" rend="italic" ref="Hieros_Gamos">hieros gamos</term> ceremony. While the <q><term xml:id="Apollonian">Apollonian</term></q> dimension of his rule is pronounced, it was critically offset by a frankly <q><term ref="Dionysian">Dionysian</term></q><note place="foot">We use these terms here only in a suggestive manner and will discard them later on. We are certainly not employing them in their strict Nietzschean sense. See <bibl><author ref="NIETZSCHE-Friedrich">Friedrich Nietzsche</author>, <title level="m" rend="italic">The Birth of Tragedy</title> (<pubPlace>Leipzig</pubPlace>: <publisher>E. W. Fritzsch</publisher>, <date when="1872">1872</date>).</bibl></note> component. The historical record suggests that the actualization of his legitimacy relied disproportionately upon the latter. One might characterize this ideological framework as an <q><term xml:id="Ishtarian">Ishtarian</term> fist concealed within a glove of righteousness</q><note place="foot">This expression is a deliberate adaptation of the <q>Legalist fist in a Confucian glove</q> metaphor from Chinese historiography. Although the two sets of concepts are not historically analogous, the fist-and-glove metaphor effectively captures the dynamic of power justification described here.</note>.</p>
+                  
+                  <p>Nearly two millennia later in <name ref="Rome">Rome</name>, <name type="ruler" xml:id="Augustus">Augustus</name> legitimized the dismantling of the <name ref="Rome">Roman</name> Republican constitutional order through a strikingly homologous mechanism. He systematically projected an aura of <term ref="Apollonian">Apollonian</term> righteousness, emphasized symbolic deference to the <name type="ruler" xml:id="Roman_Senate">Senate</name>, and governed under the ostensibly modest title of <term xml:lang="la" rend="italic" xml:id="Princeps">princeps</term>. Fundamentally, however, the material basis of his supremacy rested upon the loyalty of the legions bequeathed to him by his adoptive father, <name type="ruler" xml:id="Julius_Caesar">Caesar</name>, the nominal <q>descendant of <name type="deity" xml:id="Venus">Venus</name>.</q> Here, the same structural dynamic is evident: an <q><term ref="Ishtarian">Ishtarian</term> (<name ref="Venus">Venus</name>) fist concealed within a glove of righteousness (<name type="deity" xml:id="Apollo">Apollo</name>).</q> The <term ref="Apollonian">Apollonian</term> archetype is frequently contrasted with the <term ref="Dionysian">Dionysian</term>, but structural analysis reveals the more historically salient dichotomy to be <name ref="Apollo">Apollo</name>/<name ref="Venus">Venus</name> (<name ref="Marduk">Marduk</name>/<name ref="Inanna-Ishtar">Ishtar</name>) rather than the traditional <name ref="Apollo">Apollo</name>/<name type="deity" xml:id="Dionysus">Dionysos</name> binary. While <name type="ruler" xml:id="Mark_Antony">Mark Antony</name> conspicuously emphasized his <term ref="Dionysian">Dionysian</term> associations, this served primarily as a vector for a hyper-Venusian (<term ref="Ishtarian">Ishtarian</term>) political theology. <name ref="Augustus">Augustus</name> required no such overt displays; he successfully galvanized the devotion of the army without resorting to explicit ecstatic performance.</p>
+                  
+                  <p>The earliest archaeologically attested instantiation of this bifurcated system of sovereignty justification is located in the dual sacred precincts of the Late <term xml:id="Chalcolithic">Chalcolithic</term> (fourth millennium BCE) city of <name type="place" xml:id="Uruk">Uruk</name> in <name type="place" xml:id="Southern_Mesopotamia">Southern Mesopotamia</name>. The western precinct, <name xml:id="Kullaba" type="artifact">Kullaba</name>, was dedicated to <name type="deity" xml:id="Anu">Anu</name>, the sky god and archetype of the aforementioned righteous, paternal deities. The eastern precinct, <name xml:id="E-Anna" type="artifact">E-Anna</name>, served as the cultic center for the goddess <name ref="Inanna-Ishtar">Inanna</name>, the <name type="people" xml:id="Sumerians">Sumerian</name> predecessor of the <name type="people" xml:id="Akkadians">Akkadian</name>-<name type="people" xml:id="Babylonians">Babylonian</name> <name ref="Inanna-Ishtar" xml:lang="akk">Ishtar</name>. Extant sources from the latter half of the third millennium BCE onward provide incontrovertible evidence of this goddess's formidable martial-erotic pedigree. Consider, for example, the following passages:</p>
+                  
+                  <cit>
+                    <quote>When I sit by the gate of the tavern, I am a prostitute familiar with the penis; the friend of a man, the girlfriend of a woman.</quote>
+                    <bibl>
+                      <author xml:id="BLACK-Jeremy">Jeremy Black</author>, 
+                      <author xml:id="CUNNINGHAM-Graham">Graham Cunningham</author>, 
+                      <author xml:id="ROBSON-Eleanor">Eleanor Robson</author>, and 
+                      <author xml:id="ZOLYOMI-Gábor">Gábor Zólyomi</author>, 
+                      <title level="a">A cir-namcub to Inana (Inana I)</title>, in 
+                      <title level="m" rend="italic">The Electronic Text Corpus of Sumerian Literature</title> 
+                      (<pubPlace>Oxford</pubPlace>: 
+                      <publisher>University of Oxford</publisher>, 
+                      <date when="1998">1998</date>), lines <citedRange unit="page">16-22</citedRange>.
+                    </bibl>
+                  </cit>
+                  
+                  <cit>
+                    <quote>Goddess of the fearsome divine powers, clad in terror, riding on the great divine powers, <name ref="Inanna-Ishtar" xml:lang="sux">Inanna</name>, made complete by the strength of the holy ankar weapon, drenched in blood, rushing around in great battles, with shield resting on the ground, covered in storm and flood...</quote>
+                    <bibl>
+                      <author ref="BLACK-Jeremy">Jeremy Black</author>, 
+                      <author ref="CUNNINGHAM-Graham">Graham Cunningham</author>, 
+                      <author ref="ROBSON-Eleanor">Eleanor Robson</author>, and 
+                      <author ref="ZOLYOMI-Gábor">Gábor Zólyomi</author>, 
+                      <title level="a">Inana and Ebiḫ</title>, in 
+                      <title level="m" rend="italic">The Electronic Text Corpus of Sumerian Literature</title> 
+                      (<pubPlace>Oxford</pubPlace>: 
+                      <publisher>University of Oxford</publisher>, 
+                      <date when="1998">1998</date>), lines <citedRange unit="page">1-4</citedRange>.
+                    </bibl>
+                  </cit>
+                  
+                  <p>By this period, <name ref="Anu">Anu</name> had evidently transitioned into the structural role of a <term xml:lang="la" rend="italic" xml:id="Deus_Otiosus">deus otiosus</term>:</p>
+                  
+                  <cit>
+                    <quote><name ref="Anu">Anu</name> is the father and king of the gods... but he is a <term rend="italic" xml:lang="la" ref="Deus_Otiosus">deus otiosus</term>, an aloof god who has withdrawn to the highest heavens.</quote>
+                    <bibl>
+                      <author xml:id="JACOBSEN-Thorkild">Thorkild Jacobsen</author>, 
+                      <title level="m" rend="italic">The Treasures of Darkness: A History of Mesopotamian Religion</title> 
+                      (<pubPlace>New Haven</pubPlace>: 
+                      <publisher>Yale University Press</publisher>, 
+                      <date when="1976">1976</date>), p. <citedRange unit="page">95</citedRange>.
+                    </bibl>
+                  </cit>
+                  
+                  <p>Nonetheless, both archaeological <term xml:id="Stratigraphy">stratigraphy</term> and later mythological traditions point to an intense institutional rivalry<note place="foot">This rivalry is vividly dramatized in the <name ref="Sumerians">Sumerian</name> poem <q><name xml:id="Gilgamesh" type="ruler">Gilgamesh</name> and the <name xml:id="Bull_of_Heaven" type="deity">Bull of Heaven</name></q>, where <name ref="Inanna-Ishtar" xml:lang="sux">Inanna</name> intimidates <name ref="Anu">Anu</name> into giving her the <name ref="Bull_of_Heaven">Bull of Heaven</name> by demanding: <hi rend="italic"><q>Give me the <name ref="Bull_of_Heaven">Bull of Heaven</name> or I will shout, and make my voice reach heaven and earth!</q></hi> See <bibl><author ref="BLACK-Jeremy">Jeremy Black</author>, <author ref="CUNNINGHAM-Graham">Graham Cunningham</author>, <author ref="ROBSON-Eleanor">Eleanor Robson</author>, and <author ref="ZOLYOMI-Gábor">Gábor Zólyomi</author>, <title level="a">Gilgameš and the Bull of Heaven</title>, in <title level="m" rend="italic">The Electronic Text Corpus of Sumerian Literature</title> (<pubPlace>Oxford</pubPlace>: <publisher>University of Oxford</publisher>, <date when="1998">1998</date>), lines <citedRange unit="page">46-51</citedRange>.</bibl></note> between the factions affiliated with the two precincts in Late <term ref="Chalcolithic">Chalcolithic</term> <name ref="Uruk">Uruk</name>. The <name ref="Anu">Anu</name> <term xml:id="Ziggurat">Ziggurat</term> in the <name ref="Kullaba">Kullaba</name> underwent successive monumental reconstructions to project its dominance over the urban skyline, while the <name ref="E-Anna">E-Anna</name> precinct horizontally expanded into a vast administrative and cultic complex. It is highly probable that the <name ref="Kullaba">Kullaba</name> faction was directed by a predecessor of the <term xml:lang="sux" rend="italic" xml:id="Ensi">ensi</term> (the civic governor-administrator of later epochs), whereas the <name ref="E-Anna">E-Anna</name> was commanded by a proto-monarch of the <term xml:lang="sux" rend="italic" xml:id="Lugal">lugal</term> classification. Regardless of exact titles, it remains unclear whether this early friction ever crystallized into the institutionalized dualism later perfected by <name ref="Hammurabi">Hammurabi</name> or <name ref="Augustus">Augustus</name>. Periodically, the friction between the <name ref="Kullaba">Kullaba</name> and <name ref="E-Anna">E-Anna</name> factions in Late <term ref="Chalcolithic">Chalcolithic</term> <name ref="Uruk">Uruk</name> likely resembled the overtly adversarial dynamic of the civil war between <name type="ruler" xml:id="Octavian">Octavian</name> (<name ref="Kullaba">Kullaba</name>) and <name ref="Mark_Antony">Mark Antony</name> (<name ref="E-Anna">E-Anna</name>) rather than the classical <name ref="Babylonians">Babylonian</name> synthesis.</p>
+
+                  <p>In the late third millennium BCE, <name type="ruler" xml:id="Sargon_of_Akkad">Sargon of Akkad</name>'s dynasty successfully governed the Mesopotamian basin briefly by relying almost exclusively upon <name ref="E-Anna">E-Anna</name> martial-erotic spirit, whereas his imperial successors, the <name type="ruler" xml:id="Third_Dynasty_of_Ur">Third Dynasty of Ur</name>, pivoted to an intensely <name ref="Kullaba">Kullaba</name>-centric administrative model (pioneering the structural antecedents of Hammurabi's code). A durably stable synthesis of these competing engines was not truly formalized until the early second millennium BCE.</p>
+
+                  <p>The bipartite architecture of state administration and ideological legitimation delineated so far constitutes what we will term the <term ref="Kullaba_E-Anna_Model">Kullaba/E-Anna model</term>—or, interchangeably, the <q><name ref="Anu">Anu</name>/<name ref="Inanna-Ishtar" xml:lang="akk">Ishtar</name></q> or <q><name ref="Anu">Anu</name>/<name ref="Inanna-Ishtar" xml:lang="sux">Inanna</name></q> paradigm. As demonstrated, this framework can manifest either as a highly stable, institutionalized quasi-constitution (<name ref="Hammurabi">Hammurabi</name>, <name ref="Augustus">Augustus</name>) or as a volatile structural antagonism bordering on civil collapse (the Late <term ref="Chalcolithic">Chalcolithic</term> <name ref="Uruk">Uruk</name> precincts in times of crisis, <name ref="Octavian">Octavian</name> versus <name ref="Mark_Antony">Mark Antony</name>). The historical oscillation between these two modalities is an inherent feature of the model.</p>
+                </div>
+        
+                <div type="section" n="2">
+                  <head>4.2. The <name ref="GIRARD-Rene">Girardian</name> mechanics on both sides</head>
+                  
+                  <p>The operational mechanics of the <name ref="E-Anna">E-Anna</name> faction are, once again, best elucidated through the theoretical framework of <name ref="GIRARD-Rene">Girardian</name> <term ref="Mimetic_Desire">mimetic desire</term> we have already used in the previous chapter. Within this relational architecture, the goddess functions as the <term ref="Mediator">mediator</term>, actively broadcasting her divine desire for the sovereign. The sovereign consequently becomes the hyper-valorized object of desire, while the populace occupies the role of desiring subjects, unconsciously imitating the <term ref="Mediator">mediator</term>'s passion. By channeling her divine, erotic passion toward the monarch, the goddess precipitates his mimetic elevation to a semi-divine status. This sociopsychological dynamic constitutes the bedrock of what historiography has conventionally termed <term xml:id="Oriental_Despotism">Oriental Despotism</term><note place="foot">We are well aware that <q><term ref="Oriental_Despotism">Oriental Despotism</term></q> has become a <q>colonialist</q> dirty word in modern scholarship. Yet the very fact that it exists demonstrates that observers had realized something akin to the dynamic described here existed. See <bibl><author xml:id="WITTFOGEL-Karl_A">Karl A. Wittfogel</author>, <title level="m" rend="italic">Oriental Despotism: A Comparative Study of Total Power</title> (<pubPlace>New Haven</pubPlace>: <publisher>Yale University Press</publisher>, <date when="1957">1957</date>).</bibl></note>—a structural paradigm wherein the ruler is ideologically insulated from the profane sphere.</p>
+                  
+                  <p>This triangular mimetic architecture accounts for the remarkable ideological potency and cross-cultural diffusion<note place="foot">We are keenly aware that this macro-historical framework invites accusations of <q>hyperdiffusionism.</q> We unapologetically maintain, however, that tracing these structural homologies across vast spans of time and geography is analytically essential, and we reject the dogma of absolute regional isolationism which infects current historiography.</note> of the <term ref="Ishtarian">Ishtarian</term> paradigm. Because <term ref="Mimetic_Desire">mimetic desire</term> operates as a highly contagious psychosocial mechanism, the goddess's localized favor for the king swiftly metastasizes throughout the populace, forging a formidable engine of mass devotion and centralized charismatic authority. However, this engine is inherently volatile. The mimetic escalation catalyzed by the <name ref="E-Anna">E-Anna</name> precinct perpetually threatens to breach its structural constraints, risking a descent into chaotic factional violence and societal implosion. Consequently, the <name ref="Kullaba">Kullaba</name> apparatus—embodying law, bureaucratic rationality, and <term ref="Apollonian">Apollonian</term> order—is engaged in a permanent structural imperative to contain, quantify, and redirect this explosive energy. Indeed, major phases of political evolution can be analyzed as successive attempts by <name ref="Kullaba">Kullaba</name>-aligned institutions to subjugate the volatile charismatic surplus of the <name ref="E-Anna">E-Anna</name>, a dialectic mapped in the subsequent table.</p>
+
+                  <p>While the mimetic dynamic is most conspicuously at work on the <name ref="E-Anna">E-Anna</name> side of the equation, it is simultaneously operationalized by the <name ref="Kullaba">Kullaba</name>. In this parallel sphere, the object of desire is the paternal cosmic deity (<name ref="Anu">Anu</name>, <name ref="Marduk">Marduk</name>, <name ref="Shamash">Shamash</name>), and the initial catalyst of desire is supplied by the bureaucratic priesthood initiating orthopraxic rituals. By adopting a posture of ritual prostration, the clerisy assumes the role of the <q>little children</q> of the Gospel<note place="foot">Matthew 18:3-4: <q rend="italic">Truly I say to you, unless you change and become like little children, you will never enter the kingdom of heaven.</q></note> soliciting paternal protection. This institutionalized deference is subsequently imitated by the broader population, synthesizing a <q>coalition of the meek</q> endowed with sufficient structural gravity to serve as a thermodynamic regulator against the potentially destabilizing, hyper-masculine energies of the <name ref="E-Anna">E-Anna</name>.</p>
+
+                  <p><term xml:id="Mimetic_Loop">Mimetic loops</term> are operating on both sides of the sovereignty divide. As <name xml:id="DUPUY-Jean_Pierre" type="scholar">Jean-Pierre Dupuy</name>—from whom we derive the term <q><term ref="Mimetic_Loop">mimetic loop</term></q>—has demonstrated, such mechanisms become self-reinforcing circuits of desire and imitation.<note place="foot">See <bibl><author ref="DUPUY-Jean_Pierre">Jean-Pierre Dupuy</author>, <title level="m" rend="italic">The Mark of the Sacred</title> (<pubPlace>Stanford</pubPlace>: <publisher>Stanford University Press</publisher>, <date when="2013">2013</date>)</bibl>.</note> In the case of the <name ref="Kullaba">Kullaba</name>, the loop is manifested as more and more frightened but mimetically attracted people come and prostrate before the paternal deity (c.f. mass street prayers in Islam). On the <name ref="E-Anna">E-Anna</name> side, the engine of the <term ref="Mimetic_Loop">mimetic loop</term> is the orgiastic <term xml:lang="grc" rend="italic" xml:id="Thiasus">thiasus</term> or warband.</p>
+
+                  <p>In order to characterize the martial-erotic leader of the <name ref="E-Anna">E-Anna</name> side, we will use the acronym <term xml:id="BDMB">BDMB</term> for <q>Big Dick Macho Boss</q>. We deliberately insist on using the poetics of modern thuggish English to express the visceral nature of what we are talking about here because polite-academic modern English is too <name ref="Kullaba">Kullaba</name>-esque to be able to properly render what is at stake. Using this scale-neutral phrase and acronym has the additional advantage of not overly connoting the idea of a <q>ruler</q>, thus making it applicable to a wide range of characters, from street thugs to barbarian chieftains to petty kings to emperors.</p>
+                </div>
+        
+                <div type="section" n="3">
+                  <head>4.3. <term ref="The_Red">The Red</term> and <term ref="The_Black">the Black</term></head>
+                  
+                  <p>This analytical framework also fundamentally relies on the <name ref="GIRARD-Rene">Girardian</name> dichotomy between <q>the <term ref="The_Red">red</term></q> (overt, state-sponsored charismatic idolatry) and <q>the <term ref="The_Black">black</term></q> (covert, stealthy, structurally sequestered mimetic devotion). As the Middle East and Europe underwent systemic transitions toward the rigid orthodoxies of the <term xml:id="Abrahamic_Faiths">Abrahamic faiths</term>, the <name ref="E-Anna">E-Anna</name> dynamic of the sovereignty engine was structurally compelled to migrate from <term ref="The_Red">the red</term> to <term ref="The_Black">the black</term>. Although forcefully stripped of its overtly polytheistic iconography, the <term ref="Ishtarian">Ishtarian</term> mechanism remained functionally indispensable, persisting covertly within complex sociopolitical architectures. This subterranean continuity is starkly evident in institutions such as the medieval theology of the three orders (see Item 18 below) and the highly sequestered erotic-political dynamics of <term xml:id="Islamic_Kingship">Islamic Kingship</term> (Item 13). Despite this successful integration into <term ref="The_Black">the black</term>, the historical continuum is periodically ruptured by charismatic flare-ups. During epochs of institutional fragility, the suppressed <name ref="E-Anna">E-Anna</name> energy frequently breaches its covert constraints, generating explosive red episodes of overt <term ref="Ishtarian">Ishtarian</term> recrudescence (Items 19, 21, and 22).</p>
+                </div>
+        
+                <div type="section" n="4">
+                  <head>4.4. Instance list</head>
+                  
+                  <table>
+                    <row role="label">
+                      <cell>Historical / Mythic Case</cell>
+                      <cell>The <name ref="Kullaba">Kullaba</name> Side (<name ref="Anu">Anu</name>)</cell>
+                      <cell>The <name ref="E-Anna">E-anna</name> Side (<name ref="Inanna-Ishtar" xml:lang="akk">Ishtar</name>)</cell>
+                      <cell>Dynamic</cell>
+                      <cell>Ishtarism Type</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">1. Late <term ref="Chalcolithic">Chalcolithic</term> <name ref="Uruk">Uruk</name></hi></cell>
+                      <cell><hi rend="bold">Paternal authority</hi> of the Sky God <name ref="Anu">Anu</name>; the <name ref="Kullaba">Kullaba</name> precinct with its <term ref="Ziggurat">Ziggurat</term> ; the <term rend="italic" xml:lang="sux" ref="Ensi">ensi</term> (administrative governor) and his scribe-priests.</cell>
+                      <cell><hi rend="bold"><name ref="Inanna-Ishtar" xml:lang="sux">Inanna/Ishtar</name>:</hi> The <name ref="E-Anna">E-Anna</name> precinct; The <term rend="italic" xml:lang="sux" ref="Lugal">lugal</term> and his (hypothesized) martial-erotic <term rend="italic" xml:lang="grc" ref="Thiasus">thiasus</term>. Overt <term ref="BDMB">BDMB</term> prestige.</cell>
+                      <cell><hi rend="bold">Tension</hi> (Institutional friction between precincts)</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">2. <name ref="Sargon_of_Akkad">Sargon of Akkad</name></hi></cell>
+                      <cell><hi rend="italic">(Weak)</hi> Devoid of dynastic legitimacy; a structural usurper.</cell>
+                      <cell><hi rend="bold">Ishtar's Lover:</hi> Legitimizes sovereignty exclusively via the erotic-martial mandate of <name ref="Inanna-Ishtar" xml:lang="akk">Ishtar</name>, expressed in <name type="ruler" xml:id="Enheduanna">Enheduanna</name>'s poetry.</cell>
+                      <cell><hi rend="bold">Tension</hi> (<name ref="E-Anna">E-anna</name> completely eclipses <name ref="Kullaba">Kullaba</name>)</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">3. <name ref="Babylon">Babylon</name> (<name ref="Hammurabi">Hammurabi</name>)</hi></cell>
+                      <cell><hi rend="bold">The <name xml:id="Code_of_Hammurabi" type="source">Code of Hammurabi</name>:</hi> Publicly monumentalized jurisprudence; patronage of <name ref="Marduk">Marduk</name> and <name ref="Shamash">Shamash</name>.</cell>
+                      <cell><hi rend="bold">The <name ref="Akitu">Akitu</name> Festival / <name ref="Inanna-Ishtar" xml:lang="akk">Ishtar</name>:</hi> The sovereign ritually validates authority via the goddess.</cell>
+                      <cell><hi rend="bold">Synthesis</hi> (first instance of <q><name ref="Ishtarian" xml:lang="akk">Ishtarian</name> fist in a <name ref="Kullaba">Kullaba</name> glove</q> integrated theology)</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">4. IE Trifunctionality (antagonism)</hi></cell>
+                      <cell><hi rend="bold">1st Function (Sovereignty/Law):</hi> Sky Fathers; administered by <term xml:id="Druid">Druids</term>, <term xml:id="Brahmin">Brahmins</term>, <term xml:lang="la" rend="italic" xml:id="Flamen">flamines</term>.</cell>
+                      <cell><hi rend="bold">2nd Function (Martial Force):</hi> Warrior deities exhibiting transgressive ethos; the <term xml:lang="de" rend="italic" xml:id="Männerbund">Männerbund</term> operating via martial rage.</cell>
+                      <cell><hi rend="bold">Tension</hi>: <term xml:lang="la" rend="italic" xml:id="Ver_Sacrum">ver sacrum</term> / structural expulsion of the warband.</cell>
+                      <cell><hi rend="bold">Semi-Overt</hi> Overt within the warband / Covert within the agricultural core.</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">5. IE Trifunctionality (Royal Synthesis)</hi></cell>
+                      <cell><hi rend="bold">1st Function (Sovereignty/Law):</hi> Sky Fathers; administered by <term ref="Druid">Druids</term>, <term ref="Brahmin">Brahmins</term>, <term rend="italic" xml:lang="la" ref="Flamen">flamines</term>.</cell>
+                      <cell><hi rend="bold">2nd Function (Kingship):</hi> The martial chieftain transitions into an institutionalized king.</cell>
+                      <cell><hi rend="bold">Synthesis</hi>: <name type="deity" xml:id="Indra">Indra</name> supersedes <name type="deity" xml:id="Varuna">Varuna</name>. <name xml:id="Kuru-Panchala" type="place">Kuru-Panchala</name> orthopraxic ritualization.</cell>
+                      <cell><hi rend="bold">Near-Covert</hi> (The <term ref="Ishtarian">Ishtarian</term> dynamic is structurally masculinized and subsumed).</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">6. <name xml:id="Assyrians" type="people">Neo-Assyrian Empire</name></hi></cell>
+                      <cell><hi rend="bold">The God <name type="deity" xml:id="Assur">Assur</name>  The <name xml:id="Assyrian_Annals" type="source">Annals</name>:</hi> The sovereign as viceroy; rigid vassal treaties; calculated military logistics.</cell>
+                      <cell><hi rend="bold"><name ref="Inanna-Ishtar" xml:lang="akk">Ishtar</name> of <name type="place" xml:id="Arbela">Arbela</name>:</hi> Ecstatic female prophetesses (<term xml:lang="akk" rend="italic" xml:id="Raggamu">raggamu</term>) generating fierce martial intimacy.</cell>
+                      <cell><hi rend="bold">Synthesis</hi></cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">7. Epic of <name ref="Gilgamesh">Gilgamesh</name></hi></cell>
+                      <cell><hi rend="bold">Gilgamesh’s Quest for Order:</hi> Pursuit of immortality, monumental construction, homosocial civic bonds.</cell>
+                      <cell><hi rend="bold">Ishtar’s Proposal:</hi> The goddess offers unmediated wealth and sovereignty via the <term rend="italic" xml:lang="grc" ref="Hieros_Gamos">hieros gamos</term>.</cell>
+                      <cell><hi rend="bold">Tension</hi> (<name ref="Gilgamesh">Gilgamesh</name> explicitly rejects the <term ref="Ishtarian">Ishtarian</term> paradigm)</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">8. <name type="ruler" xml:id="Peisistratos">Peisistratos</name> of <name type="place" xml:id="Athens">Athens</name></hi></cell>
+                      <cell><hi rend="bold">Poliad Institutions:</hi> The constitutional laws, aristocratic councils, and civic architecture of the <term xml:lang="grc" rend="italic" xml:id="Polis">polis</term>.</cell>
+                      <cell><hi rend="bold">The Mock <name type="deity" xml:id="Athena">Athena</name>:</hi> Usurpation of sovereignty via a theatrical procession featuring a living surrogate (<name type="ruler" xml:id="Phye">Phye</name>) projecting divine martial (and implicitly erotic) endorsement.</cell>
+                      <cell><hi rend="bold">Tension</hi> (Bypassing constitutional limits via direct charismatic performance)</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">9. <name type="place" xml:id="Ptolemaic_Egypt">Ptolemaic Egypt</name></hi></cell>
+                      <cell><hi rend="bold"><name type="deity" xml:id="Serapis">Serapis</name> - The <name type="artifact" xml:id="Mouseion">Mouseion</name>:</hi> The synthetically engineered deity of order; rigorous <name type="people" xml:id="Greeks">Hellenic</name> tax bureaucracy.</cell>
+                      <cell><hi rend="bold">The Queens - <name type="deity" xml:id="Isis-Aphrodite">Isis-Aphrodite</name>:</hi> Endogamous royal incest; living divine avatars; weaponized theatrical luxury (<term xml:lang="grc" rend="italic" xml:id="Tryphe">tryphe</term>).</cell>
+                      <cell><hi rend="bold">Synthesis</hi></cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">10. The Final <name ref="Rome">Roman</name> Civil War (<name type="event" xml:id="Battle_of_Actium">Actium</name>)</hi></cell>
+                      <cell><hi rend="bold"><name ref="Octavian">Octavian</name> (<name ref="Rome">Rome</name>):</hi> Championing <name ref="Rome">Roman</name> jurisprudence, the <name ref="Roman_Senate">Senate</name>, and traditional patriarchal order.</cell>
+                      <cell><hi rend="bold"><name type="ruler" xml:id="Cleopatra">Cleopatra</name> - Antony:</hi> The New <name ref="Mark_Antony">Isis</name> and New <name ref="Isis-Aphrodite">Dionysus</name>; attempting imperial hegemony via raw charismatic capital.</cell>
+                      <cell><hi rend="bold">Tension</hi> (Existential clash of opposing models)</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">11. <name ref="Rome">Roman</name> Empire (<name ref="Augustus">Augustus</name>)</hi></cell>
+                      <cell><hi rend="bold">The <term rend="italic" xml:lang="la" ref="Princeps">princeps</term> / <name ref="Apollo">Apollo</name>:</hi> The performative restoration of the Republic and the <name type="artifact" xml:id="Temple_of_Apollo_Palatinus">Temple of Apollo Palatinus</name>.</cell>
+                      <cell><hi rend="bold"><name type="deity" xml:id="Venus_Genetrix">Venus Genetrix</name> / The <name xml:id="Julian_Dynasty" type="ruler">Julian</name> Blood:</hi> The projection of divine lineage; the <term ref="Ishtarian">Ishtarian</term> mimetic engine commanding the legions.</cell>
+                      <cell><hi rend="bold">Synthesis</hi></cell>
+                      <cell><hi rend="bold">Covert</hi> (Black) First historical instance of the <name ref="E-Anna">E-Anna</name> functioning covertly while retaining structural primacy.</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">12. The <name type="source" xml:id="Book_of_Revelation">Book of Revelation</name></hi></cell>
+                      <cell><hi rend="bold">The Beast (The <name ref="Rome">Roman</name> State):</hi> The military and bureaucratic apparatus of the <name ref="Rome">Roman</name> Empire.</cell>
+                      <cell><hi rend="bold">The <name type="deity" xml:id="Whore_of_Babylon">Whore of Babylon</name>:</hi> The prophetic unmasking of the covert, demonic ideology of sacred <term xml:lang="grc" rend="italic" xml:id="Porneia">porneia</term>, laying bare <name ref="Rome">Rome</name>’s mimetic allure.</cell>
+                      <cell><hi rend="bold">Tension</hi> (Radical prophetic critique of the state).</cell>
+                      <cell><hi rend="bold">Covert</hi> (Black). The active unmasking thereof.</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">13. <name type="place" xml:id="Sassanid_Empire">Sassanid Persia</name></hi></cell>
+                      <cell><hi rend="bold"><name type="deity" xml:id="Ahura_Mazda">Ahura Mazda</name>  <term xml:id="Magi">The Magi</term>:</hi> The <name type="people" xml:id="Zoroastrians">Zoroastrian</name> priesthood, purity laws, and the theology of <term xml:lang="ae" rend="italic" xml:id="Asha">asha</term> (cosmic order).</cell>
+                      <cell><hi rend="bold"><name type="deity" xml:id="Anahita">Anahita</name>:</hi> The implicitly erotic martial-water deity actively utilized to confer the <term xml:lang="ae" rend="italic" xml:id="Khvarenah">khvarenah</term> (royal glory) upon the <term xml:id="Shah">Shah</term>.</cell>
+                      <cell><hi rend="bold">Synthesis</hi> (The final overt, state-sponsored <term ref="Ishtarian">Ishtarian</term> configuration in the Middle East and West).</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">14. <term ref="Islamic_Kingship">Islamic Kingship</term></hi></cell>
+                      <cell><hi rend="bold"><term xml:lang="ar" rend="italic" xml:id="Sharia">Shari'a</term> - The <term xml:lang="ar" rend="italic" xml:id="Ulama">ulama</term>:</hi> Islamic jurisprudence, the mosque network, and the absolute legal authority of <name type="deity" xml:id="Allah">Allah</name>.</cell>
+                      <cell><hi rend="bold">The <term xml:id="Harem">harem</term>:</hi> The massively sequestered mimetic engine generating erotic capital.</cell>
+                      <cell><hi rend="bold">Synthesis</hi> (The <name ref="E-Anna">E-anna</name> is driven entirely into the covert sphere but remains integral to sovereign prestige).</cell>
+                      <cell><hi rend="bold">Covert</hi> (Black)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">15. Indian Kingship (Orthodox)</hi></cell>
+                      <cell><hi rend="bold">Brahminical Orthodoxy:</hi> The codified <term xml:lang="sa" rend="italic" xml:id="Dharma">dharma</term>, <term xml:lang="sa" rend="italic" xml:id="Varna">Varnas</term> hierarchy, and complex <name type="source" xml:id="Vedas">Vedic</name> orthopraxy.</cell>
+                      <cell><hi rend="bold"><name type="deity" xml:id="Durga">Durga</name> / The <name type="deity" xml:id="Devi">Devi</name>:</hi> The martial, demon-slaying goddess; public royal worship secures territorial sovereignty.</cell>
+                      <cell><hi rend="bold">Synthesis</hi> (Institutionalized via state-sponsored festivals such as <name type="event" xml:id="Navaratri">Navaratri</name>).</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">16. Indian Kingship (<term xml:id="Tantric">Tantric</term>)</hi></cell>
+                      <cell><hi rend="bold">Brahminical Orthodoxy:</hi> The exoteric, public-facing facade of purity and law.</cell>
+                      <cell><hi rend="bold"><term ref="Tantric">Tantric</term> <term xml:lang="sa" rend="italic" xml:id="Shakti">shaktis</term> / <name type="deity" xml:id="Mahavidya">Mahavidyas</name>:</hi> Transgressive, esoteric rituals utilized by elites to amass occult <term xml:lang="sa" rend="italic" xml:id="Siddhi">siddhi</term>.</cell>
+                      <cell><hi rend="bold">Semi-Tension</hi> (Covert violation of exoteric Brahminical strictures).</cell>
+                      <cell><hi rend="bold">Semi-Covert</hi> (Formally unacknowledged yet systemically ubiquitous).</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">17. <name type="place" xml:id="Byzantium">Byzantium</name> (<name type="ruler" xml:id="Justinian">Justinian</name>)</hi></cell>
+                      <cell><hi rend="bold">The <name type="source" xml:id="Corpus_Juris_Civilis">Corpus Juris Civilis</name>:</hi> The definitive codification of <name ref="Rome">Roman</name> jurisprudence intertwined with Orthodox Christian theology.</cell>
+                      <cell><hi rend="bold"><name type="ruler" xml:id="Theodora">Theodora</name> - <name type="ruler" xml:id="Antonina">Antonina</name>:</hi> Former theatrical performers wielding immense, terrifying mimetic and martial-erotic authority behind the throne.</cell>
+                      <cell><hi rend="bold">Synthesis</hi></cell>
+                      <cell><hi rend="bold">Covert</hi> (Black) Critically unmasked by <name xml:id="PROCOPIUS-Procopius" type="source">Procopius</name> in the <title level="m" rend="italic">Secret History</title>.</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">18. Medieval Compromise (The 3 Orders)</hi></cell>
+                      <cell><hi rend="bold">The Episcopacy (<term xml:lang="la" rend="italic" xml:id="Orator">oratores</term>):</hi> The Catholic clerical hierarchy managing Canon Law, sacraments, and cosmic legitimacy.</cell>
+                      <cell><hi rend="bold">The Feudal Nobility (<term xml:lang="la" rend="italic" xml:id="Bellator">bellatores</term>):</hi> The superficially Christianized aristocratic caste perpetuating the martial-erotic violence of the pagan <term rend="italic" xml:lang="de" ref="Männerbund">Männerbund</term>.</cell>
+                      <cell><hi rend="bold">Synthesis</hi> (Formalized at <name type="ruler" xml:id="Clovis">Clovis</name>'s baptism; occasionally ruptured by moralistic denunciations like <name type="prophet" xml:id="COLUMBANUS-Saint">Columbanus</name> assailing the <name type="ruler" xml:id="Merovingians">Merovingian</name> <term xml:lang="la" rend="italic" xml:id="Lupanarium">lupanarium</term>).</cell>
+                      <cell><hi rend="bold">Covert</hi> (The aristocratic warband sublimating <term ref="Ishtarian">Ishtarian</term> drives beneath a Christian veneer).</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">19. Early <term xml:id="Troubadour">Troubadours</term> (Phase 1 - <name xml:id="William_IX" type="ruler">William IX</name> of Aquitaine)</hi></cell>
+                      <cell><hi rend="bold">The Catholic Church:</hi> The official ecclesiastical bureaucracy, enforcing feudal moral codes and Christian monogamy.</cell>
+                      <cell><hi rend="bold">The Carnal <name ref="E-Anna">E-anna</name>:</hi> The explicitly sexualized Lady; overt public displays asserting raw charismatic surplus against clerical constraints.</cell>
+                      <cell><hi rend="bold">Tension</hi> (Overt, programmatic defiance of ecclesiastical authority).</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">20. Later <term ref="Troubadour">Troubadours</term> and <term xml:lang="pro" rend="italic" xml:id="Fin_amor">fin'amor</term> (Phase 2 - <name xml:id="Eleanor_of_Aquitaine" type="ruler">Eleanor</name> and <name type="ruler" xml:id="Garsenda_of_Forcalquier">Garsenda</name>)</hi></cell>
+                      <cell><hi rend="bold">The Catholic Church:</hi> The dominant ecclesiastical bureaucracy and established moral order.</cell>
+                      <cell><hi rend="bold">The Inaccessible Lady:</hi> The conceptualized <q><term xml:lang="pro" rend="italic" xml:id="Midons">midons</term></q>, generating intense <term ref="Mimetic_Desire">mimetic desire</term> that remains structurally unconsummated.</cell>
+                      <cell><hi rend="bold">Synthesis</hi> (Charismatic drives effectively moderated by <name ref="Plato">Platonic</name> ideals).</cell>
+                      <cell><hi rend="bold">Covert</hi> (Black)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">21. <name type="ruler" xml:id="Frederick_II">Frederick II</name> (<name type="place" xml:id="Holy_Roman_Empire">Holy Roman Emperor</name>)</hi></cell>
+                      <cell><hi rend="bold">The <name type="ruler" xml:id="Papacy">Papacy</name> / Catholic Church:</hi> The supreme religious bureaucracy of <name type="place" xml:id="Christendom">Christendom</name> asserting universal jurisdictional supremacy.</cell>
+                      <cell><hi rend="bold">The Court of <name type="place" xml:id="Palermo">Palermo</name>:</hi> Overt maintenance of a royal <term ref="Harem">harem</term>, <name type="people" xml:id="Saracens">Saracen</name> bodyguards, exotic menageries, and unchecked charismatic excess.</cell>
+                      <cell><hi rend="bold">Tension</hi> (Systemic warfare with the <name ref="Papacy">Papacy</name> resulting in repeated excommunications).</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">22. <name type="prophet" xml:id="Joan_of_Arc">Joan of Arc</name> (Phase 1, The Ambiguous Maiden)</hi></cell>
+                      <cell><hi rend="bold">The French Crown - the Clergy:</hi> The beleaguered, failing military-bureaucratic state of <name type="ruler" xml:id="Charles_VII">Charles VII</name>.</cell>
+                      <cell><hi rend="bold">The Virgin Warrior Maiden:</hi> An organic reiteration of the Peisistratid <name ref="Athena">Athena</name>-proxy, injecting raw divine momentum.</cell>
+                      <cell><hi rend="bold">Tension</hi> (A desperate, chaotic alliance that ultimately, but barely, subverts the ecclesiastical <name ref="Kullaba">Kullaba</name>).</cell>
+                      <cell><hi rend="bold">Overt</hi> (Red)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">23. <name ref="Joan_of_Arc">Joan of Arc</name> (Phase 2, The Saint)</hi></cell>
+                      <cell><hi rend="bold">The Victorious State  Orthodoxy:</hi> Charles VII's structurally stabilized monarchy alongside a reconciled Catholic Church.</cell>
+                      <cell><hi rend="bold">The Sanitized Symbol:</hi> The volatile charismatic energy of the maiden is retroactively appropriated, domesticated, and legalized.</cell>
+                      <cell><hi rend="bold">Synthesis</hi> (The <name type="event" xml:id="Nullification_Trial">Nullification Trial</name> systematically institutionalizes her divine mandate).</cell>
+                      <cell><hi rend="bold">Covert</hi> (Black)</cell>
+                    </row>
+                    <row>
+                      <cell><hi rend="bold">24. France (<name type="ruler" xml:id="Louis_XIV">Louis XIV</name>)</hi></cell>
+                      <cell><hi rend="bold"><q xml:lang="fr">L'état</q> (The <name ref="Kullaba">Kullaba</name> State):</hi> The rationalized fiscal apparatus, standing professional armies, and the strict Catholic hierarchy.</cell>
+                      <cell><hi rend="bold"><q xml:lang="fr">C'est moi</q> (The <name ref="E-Anna">E-anna</name>):</hi> The sovereign's physical body generating gravity via the crushing etiquette of <name type="artifact" xml:id="Versailles">Versailles</name> and the formal elevation of the <term xml:lang="fr" rend="italic" xml:id="Maitresse-en-titre">maîtresse-en-titre</term>.</cell>
+                      <cell><hi rend="bold">Synthesis</hi></cell>
+                      <cell><hi rend="bold">Covert</hi> (Black)</cell>
+                    </row>
+                  </table>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
