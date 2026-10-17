@@ -832,6 +832,19 @@ def _registry_lookup(registry, tokens):
             or registry.get(tuple(t.lower() for t in tokens)))
 
 
+def _is_bare_surname_display(ident, text_content):
+    """True if a first occurrence's displayed text is nothing but the bare
+    surname of its LASTNAME-Firstname key (<name xml:id="HEAD-Ronan_James">
+    Head</name>). Such a display trigger is registered case-sensitively,
+    like a tagging-dictionary surname: a surname that is also an ordinary
+    word ("Head", "White") must never catch the word itself ("head")."""
+    split = _split_author_key(ident or "")
+    if split is None:
+        return False
+    toks = list(_WORD_TOKEN_RE.finditer(text_content or ""))
+    return len(toks) == 1 and _name_skeleton(toks[0].group()) == _name_skeleton(split[0])
+
+
 def _register_candidate(registry, phrase, ref_id, tag, xml_lang, rend, case_sensitive=False):
     """Register `phrase` as a subsequent-use trigger for ref_id/tag -- as
     the whole phrase only: a part of it is never a trigger on its own
@@ -1202,7 +1215,8 @@ def _process_first_occurrence(root, registry=None, lexicon=None, source_file="",
                         text_content = "".join(el.itertext())
                         _register_candidate(registry, ident, ref_id, local, xml_lang, rend)
                         if text_content.strip().lower() != ident.strip().lower():
-                            _register_candidate(registry, text_content, ref_id, local, xml_lang, rend)
+                            _register_candidate(registry, text_content, ref_id, local, xml_lang, rend,
+                                                case_sensitive=_is_bare_surname_display(ident, text_content))
                         # A new scholar/prophet gets its bare surname into
                         # the tagging dictionary before the dictionary's
                         # strings are registered, so it takes effect at once.
@@ -2077,7 +2091,8 @@ def relocate_first_occurrences(xml_paths):
                     # tag onto.
                     _register_candidate(registry, ident, ref_id, local, xml_lang, rend)
                     if text_content.strip().lower() != ident.strip().lower():
-                        _register_candidate(registry, text_content, ref_id, local, xml_lang, rend)
+                        _register_candidate(registry, text_content, ref_id, local, xml_lang, rend,
+                                            case_sensitive=_is_bare_surname_display(ident, text_content))
                     tag_info[ref_id] = {
                         "file_idx": file_idx, "el": el, "local": local,
                         "type": el.get("type") if local == "name" else None,
