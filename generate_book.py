@@ -79,19 +79,23 @@ EXTRA_CONSOLIDATED_PDFS = []
 # format gets its own consolidated PDF ("<name>_<key>.pdf"). "page" is the
 # Typst page-size fragment; the mm figures give the page size and margins, and
 # are what the Typst page setup and the sizing of figures are computed from.
+# The side margins are mirrored for binding: "inside" (the gutter: left on an
+# odd page, right on an even one) must be wider than "outside". Typst decides
+# odd/even by physical page, which matches the book because every sheet PDF
+# is padded to an even page count (see _pad_to_even_pages).
 # Remove an entry to stop building that format.
 PAPER_FORMATS = {
     "a4": {
         "label": "A4",
         "page": 'paper: "a4"',
         "width_mm": 210.0, "height_mm": 297.0,
-        "margin_mm": {"top": 30, "bottom": 30, "left": 30, "right": 25},
+        "margin_mm": {"top": 30, "bottom": 30, "inside": 30, "outside": 25},
     },
     "ut": {
         "label": "US Trade (6 x 9 in)",
         "page": "width: 6in, height: 9in",
         "width_mm": 152.4, "height_mm": 228.6,
-        "margin_mm": {"top": 20, "bottom": 25, "left": 22, "right": 16},
+        "margin_mm": {"top": 20, "bottom": 25, "inside": 22, "outside": 16},
     },
 }
 # The concordance is a reference index, not part of the book: it is built only
@@ -226,15 +230,16 @@ def _text_area_mm(key=None):
     `key` (default: the format being rendered): the page minus its margins."""
     f = PAPER_FORMATS[key or _current_format]
     m = f["margin_mm"]
-    return f["width_mm"] - m["left"] - m["right"], f["height_mm"] - m["top"] - m["bottom"]
+    return f["width_mm"] - m["inside"] - m["outside"], f["height_mm"] - m["top"] - m["bottom"]
 
 
 def _page_setup(key: str, flipped: bool = False) -> str:
     """The arguments of Typst's #set page(...) for format `key`."""
     f = PAPER_FORMATS[key]
     m = f["margin_mm"]
+    assert m["inside"] > m["outside"], f"{key}: inside margin must exceed outside"
     margin = (f"margin: (top: {m['top']:g}mm, bottom: {m['bottom']:g}mm, "
-              f"left: {m['left']:g}mm, right: {m['right']:g}mm)")
+              f"inside: {m['inside']:g}mm, outside: {m['outside']:g}mm)")
     return f"{f['page']}{', flipped: true' if flipped else ''}, {margin}"
 
 
@@ -1860,6 +1865,7 @@ _MODERN_COUNTRY_TERMS = {
     "russia", "russian",
     "china", "chinese",
     "japan", "japanese",
+    "kenya", "kenyan",
     # Modern regions (multi-country/continental groupings), not specific
     # countries -- same reasoning: not an ancient place, not a domain
     # concept, just ordinary modern geographic vocabulary.
@@ -3437,9 +3443,9 @@ _TEI_FMT = f"{{{TEI_NS}}}"
 
 def _occurrence_marker(el):
     """Return the preamble's marker function name ("w" or "y") for the tiny
-    superscript square rendered immediately before a <name>/<term>: "w"
-    (accent-blue) for its first (defining) occurrence, "y" (light gray) for
-    every later ref-pointing occurrence of the same identity. None if el
+    superscript mark rendered immediately before a <name>/<term>: "w" (a
+    light-blue circle) for its first (defining) occurrence, "y" (a light-gray
+    square) for every later ref-pointing occurrence of the same identity. None if el
     carries neither -- e.g. an as-yet-invalid <name> missing every
     identifying attribute, a case validation reports but never blocks
     rendering for -- or if it's a <name ref="..." type="blocker">: not a
@@ -4933,7 +4939,7 @@ def _typst_shared_defs() -> str:
         + (f'#let initial(letter) = text(size: {INITIAL_SIZE}, font: ("{INITIAL_FONT}", "New Computer Modern"))[#letter]\n'
            if INITIAL_FONT else '')
         + ''
-        '#let w(body) = [#super[#box(width: 4pt, height: 4pt, fill: q-border)]#h(1pt)#sym.wj#body]\n'
+        '#let w(body) = [#super[#box(circle(radius: 2pt, fill: q-border))]#h(1pt)#sym.wj#body]\n'
         '#let y(body) = [#super[#box(width: 4pt, height: 4pt, fill: occurrence-gray)]#h(1pt)#sym.wj#body]\n'
         '#let fn_ref(lbl) = context counter(footnote).at(query(lbl).first().location()).first()\n'
         '#let qcaps(body) = smallcaps(body)\n'
