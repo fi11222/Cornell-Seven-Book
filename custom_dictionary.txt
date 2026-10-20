@@ -163,6 +163,7 @@ Reddit
 Kavanaugh
 Abrahamic
 Abulafia
+Abusch
 Accad
 accreted
 Achaemenid
@@ -179,6 +180,7 @@ Akkadian
 alchemical
 Aleister
 Alessandro
+Alf
 Algaze
 Alienor
 Almagest
@@ -251,6 +253,7 @@ BMAC
 bóaire
 Bodie
 Boğazköy
+Bogdan
 Bossuet
 Bostan
 Bottéro
@@ -334,6 +337,7 @@ diachronic
 Diadochi
 diluvian
 Diocletianic
+Doniger
 dominator
 drauga
 draught
@@ -437,7 +441,9 @@ hegemon
 hegemonies
 Heiric
 Hermann
+Hermione
 hieros
+Hiltebeitel
 Hintze
 Historia
 Historiographical
@@ -499,6 +505,7 @@ Kanesh
 Kantorowicz
 Kapalikas
 Kavis
+Kershaw
 killeth
 Koine
 Konkan
@@ -566,6 +573,7 @@ Menocal
 Merovingians
 metonymy
 Miaphysite
+Michalowski
 Milbank
 mimetically
 Minimalistic
@@ -585,8 +593,10 @@ monotheizing
 Montespan
 monumentalized
 Mórrígan
+Moughtin
 Mouseion
 multivalent
+Mumby
 Mundi
 mythologically
 mythos
@@ -614,6 +624,7 @@ Nissen
 nominalism
 Numa
 Occitan
+O'Flaherty
 Oktor
 operationalized
 Optimus
@@ -650,6 +661,7 @@ Pharisaism
 Phye
 Phye's
 Phye’s
+Piotr
 Poliad
 poliad
 polygyny
@@ -706,6 +718,7 @@ sacralized
 salvific
 Šamuḫa
 Sanchia
+Sanday
 Sangro
 Sansevero
 Sant'Omobono
@@ -800,6 +813,7 @@ trifunctionality
 tripartition
 Tullius
 Tullus
+Tzvi
 Umayyad
 un
 unapologetically

@@ -83,6 +83,8 @@ EXTRA_CONSOLIDATED_PDFS = []
 # odd page, right on an even one) must be wider than "outside". Typst decides
 # odd/even by physical page, which matches the book because every sheet PDF
 # is padded to an even page count (see _pad_to_even_pages).
+# "running_header": True gives a format's chapters a running header in place
+# of the page number at the foot (see _typst_running_header).
 # Remove an entry to stop building that format.
 PAPER_FORMATS = {
     "a4": {
@@ -96,6 +98,7 @@ PAPER_FORMATS = {
         "page": "width: 6in, height: 9in",
         "width_mm": 152.4, "height_mm": 228.6,
         "margin_mm": {"top": 20, "bottom": 25, "inside": 22, "outside": 16},
+        "running_header": True,
     },
 }
 # The concordance is a reference index, not part of the book: it is built only
@@ -3751,7 +3754,7 @@ def _typst_table(node):
 
     if landscape:
         return (
-            "#page(flipped: true)[\n"
+            f"#page({_landscape_page_args()})[\n"
             '  #set text(size: 10pt)\n'
             '  #set par(justify: false)\n'
             '  #set table.cell(breakable: false)\n'
@@ -3766,6 +3769,42 @@ def _typst_table(node):
         '  #set table.cell(breakable: false)\n'
         f"  {table_call}\n"
         "]"
+    )
+
+
+def _landscape_page_args() -> str:
+    """The #page(...) arguments of a landscape table page. Once compiled, the
+    page is turned to read as an ordinary portrait page of the book, its top
+    at the left (_rotate_landscape_pages), so its margins are the portrait
+    page's turned with it: the portrait top and bottom on the right and the
+    left, and the inside one (Typst can't alternate top and bottom from page
+    to page) on both the top and the bottom. The portrait page's own running
+    header -- or, without one, its page number at the foot -- is drawn
+    turned the other way (`foreground`), so it reads upright once the page
+    is turned, in the same place as on the pages around it."""
+    f = PAPER_FORMATS[_current_format]
+    m = f["margin_mm"]
+    w, h = f["width_mm"], f["height_mm"]
+    # Header and footer sit 70% of the way across their margin (Typst's
+    # default 30% header-ascent / footer-descent). Along the portrait width,
+    # the inside margin is at the top of the turned page on an odd page and
+    # at its bottom on an even one.
+    # The folio's band runs from that line to the page edge: the right one
+    # (the portrait top) for a header, the left one (its foot) for a footer.
+    if f.get("running_header"):
+        folio_x, folio_w, folio_align = h - 0.7 * m["top"], 0.7 * m["top"], "left"
+        folio = "running-header"
+    else:
+        folio_x, folio_w, folio_align = 0, 0.7 * m["bottom"], "right"
+        folio = "align(center, counter(page).display())"
+    return (
+        f"flipped: true, margin: (left: {m['bottom']:g}mm, right: {m['top']:g}mm, "
+        f"top: {m['inside']:g}mm, bottom: {m['inside']:g}mm), header: none, footer: none,\n"
+        "  foreground: context {\n"
+        f"    let y = if calc.odd(counter(page).get().first()) {{ {m['inside']:g}mm }} else {{ {m['outside']:g}mm }}\n"
+        f"    place(top + left, dx: {folio_x:g}mm, dy: y, box(width: {folio_w:g}mm, align({folio_align},\n"
+        f"      rotate(90deg, reflow: true, block(width: {w - m['inside'] - m['outside']:g}mm, {folio})))))\n"
+        "  }"
     )
 
 
@@ -5023,6 +5062,49 @@ def _typst_shared_defs() -> str:
     )
 
 
+def _typst_running_header(chapter_title, level) -> str:
+    """The running header of a chapter-like document: the chapter's title
+    (`chapter_title`, plain text) on odd pages, the title of the current
+    level-`level` heading on even ones -- either without its em-dash
+    subtitle -- with the page number on the outside edge, which replaces the
+    one at the foot. None on the document's first page (the chapter opening),
+    which keeps its page number at the foot instead.
+    The current heading is the first one starting on the page, else the last
+    one before it (the chapter title before the first). Its body is copied
+    without the occurrence markers, footnotes and page markers it carries
+    (header-clean), so no <section-page>/<part-page> metadata is duplicated."""
+    return (
+        '#let header-clean(c) = {\n'
+        '  let f = c.func()\n'
+        '  if f == text or f == smartquote or c == [ ] { c }\n'
+        '  else if f == linebreak { [ ] }\n'
+        '  else if c.has("children") { c.children.map(header-clean).join() }\n'
+        '  else if c.has("child") { header-clean(c.child) }\n'
+        '  else if f in (emph, strong, smallcaps, underline, highlight) { f(header-clean(c.body)) }\n'
+        '  else { none }\n'
+        '}\n'
+        '#let running-header = context {\n'
+        '  let loc = here()\n'
+        '  if loc.page() == 1 { return }\n'
+        '  let n = counter(page).get().first()\n'
+        f'  let chapter = [{_tescape(chapter_title)}]\n'
+        '  let label = if calc.odd(n) { chapter } else {\n'
+        f'    let sel = heading.where(level: {level})\n'
+        '    let on-page = query(sel).filter(h => h.location().page() == loc.page())\n'
+        '    let before = query(sel.before(loc))\n'
+        '    let h = if on-page.len() > 0 { on-page.first() } else if before.len() > 0 { before.last() } else { none }\n'
+        '    if h == none { chapter } else { header-clean(dash-split(h.body).first()) }\n'
+        '  }\n'
+        '  set text(size: 9pt, style: "italic", fill: muted)\n'
+        '  let num = text(style: "normal", str(n))\n'
+        '  if calc.odd(n) { grid(columns: (1fr, auto), align: (center, right), label, num) }\n'
+        '  else { grid(columns: (auto, 1fr), align: (left, center), num, label) }\n'
+        '}\n'
+        '#set page(header: running-header,\n'
+        '          footer: context if here().page() == 1 { align(center, counter(page).display()) })\n'
+    )
+
+
 def generate_typst_doc(xml_path, fmt_key=None, start_page=1):
     """Parse a TEI XML file and return (typst_document, units, root):
     - typst_document: complete Typst document string
@@ -5115,6 +5197,9 @@ def generate_typst_doc(xml_path, fmt_key=None, start_page=1):
     # give the whole document landscape pages rather than wrapping each
     # table individually (see _typst_table's own per-wide-table flip).
     is_concordance = body is not None and body.find(f"{_TEI_FMT}div[@type='concordance']") is not None
+    # The lexicon's sections, for the running header, are its two parts
+    # (level 1), a chapter's its level-2 headings (see _toc_section_label).
+    is_lexicon = body is not None and body.find(f".//{_TEI_FMT}div[@type='lexicon']") is not None
 
     body_parts = []
 
@@ -5176,8 +5261,11 @@ def generate_typst_doc(xml_path, fmt_key=None, start_page=1):
         '#set text(font: "New Computer Modern", size: 11pt, lang: "en")\n'
         '#set par(justify: true, leading: 0.75em, spacing: 1.2em)\n'
         '\n'
-        + _typst_shared_defs() +
-        '\n'
+        + _typst_shared_defs()
+        + (_typst_running_header(" — ".join(p.strip() for p in raw_title.split("—")[:2]),
+                                 1 if is_lexicon else 2)
+           if PAPER_FORMATS[_current_format].get("running_header") and not is_concordance else '')
+        + '\n'
         + (f'#counter(page).update({start_page})\n' if start_page > 1 else '')
         + '\n'
         + _typst_title_block(title_markup, subtitle_markup if raw_subtitle else "", meta_line)
@@ -5280,8 +5368,50 @@ def _pad_to_even_pages(pdf_path: Path) -> bool:
     return True
 
 
-def compile_typst_pdf(typ_path: Path) -> bool:
-    """Compile a .typ file to a same-named .pdf in the same directory, then
+_PDFINFO_PAGE_SIZE_RE = re.compile(r"Page\s+(\d+)\s+size:\s*([\d.]+)\s*x\s*([\d.]+)\s*pts")
+
+
+def _rotate_landscape_pages(pdf_path: Path) -> bool:
+    """Turn every landscape page of pdf_path (a wide table's, see
+    _typst_table) a quarter turn counter-clockwise, so it is shown and
+    printed as a portrait page of the same format as the others, the top of
+    the table at the left -- the usual setting of a broadside table, the
+    reader turning the book clockwise to read it. Only the pages' /Rotate
+    entry changes (pdftk's "west"), not their content -- through pdftk's
+    "rotate", which keeps the PDF's bookmarks ("cat" drops them). A no-op (returns
+    True) when there is no landscape page."""
+    try:
+        info = subprocess.run(["pdfinfo", "-f", "1", "-l", "100000", str(pdf_path)],
+                              cwd=str(DIR), capture_output=True, text=True)
+    except FileNotFoundError:
+        print("    ERROR: `pdfinfo` not found on PATH")
+        return False
+    sizes = [(int(n), float(w), float(h)) for n, w, h in _PDFINFO_PAGE_SIZE_RE.findall(info.stdout)]
+    if info.returncode != 0 or not sizes:
+        print(f"    ERROR reading {pdf_path.name} page sizes:\n{info.stderr}")
+        return False
+    if not any(w > h for _, w, h in sizes):
+        return True
+    ranges = [f"{n}west" if w > h else str(n) for n, w, h in sizes]
+    with tempfile.TemporaryDirectory(dir=str(DIR)) as tmp:
+        rotated_pdf = Path(tmp) / "rotated.pdf"
+        try:
+            r = subprocess.run(["pdftk", str(pdf_path), "rotate", *ranges, "output", str(rotated_pdf)],
+                               cwd=str(DIR), capture_output=True, text=True)
+        except FileNotFoundError:
+            print("    ERROR: `pdftk` not found on PATH")
+            return False
+        if r.returncode != 0:
+            print(f"    ERROR turning the landscape pages of {pdf_path.name}:\n{r.stderr}")
+            return False
+        rotated_pdf.replace(pdf_path)
+    return True
+
+
+def compile_typst_pdf(typ_path: Path, upright_landscape: bool = True) -> bool:
+    """Compile a .typ file to a same-named .pdf in the same directory, turn
+    its landscape pages upright (see _rotate_landscape_pages; skipped when
+    `upright_landscape` is False, for a wholly landscape document), then
     pad it with a trailing blank page if that leaves it on an odd page
     count (see _pad_to_even_pages)."""
     pdf_path = typ_path.with_suffix(".pdf")
@@ -5295,6 +5425,8 @@ def compile_typst_pdf(typ_path: Path) -> bool:
         return False
     if result.returncode != 0:
         print(f"    ERROR compiling {typ_path.name}:\n{result.stderr}")
+        return False
+    if upright_landscape and not _rotate_landscape_pages(pdf_path):
         return False
     return _pad_to_even_pages(pdf_path)
 
@@ -5487,7 +5619,7 @@ def _emit_typst_and_pdf(xml_path: Path, numbered: bool = True) -> None:
             xml_mtime = xml_path.stat().st_mtime
             os.utime(typ_path, (xml_mtime, xml_mtime))
             print(f"  {_tag('TYPST')}{typ_path.name}")
-            if compile_typst_pdf(typ_path):
+            if compile_typst_pdf(typ_path, upright_landscape=xml_path.name != CONCORDANCE_FILENAME):
                 print(f"  {_tag('PDF')}{pdf_path.name}")
             else:
                 print(f"  {_tag('PDF')}{pdf_path.name}  (FAILED)")
